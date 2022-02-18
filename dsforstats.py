@@ -31,3 +31,11 @@ print("A: The probability is {}".format(p_3_heads))
 expected_p_3_heads = 0.205078125
 test_close(p_3_heads, expected_p_3_heads)
 print("")
+
+# Question 4
+print("Q: Find the probability of getting 5 heads when you toss 10 fair coins.")
+p_3_heads = C.combinations(10, 5) / 2**10
+print("A: The probability is {}".format(p_3_heads))
+expected_p_3_heads = 0.205078125
+test_close(p_3_heads, expected_p_3_heads)
+print("")
